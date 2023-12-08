@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Day 3 - HTML Media</title>
+  </head>
+  <body>
+    <h1>HTML Media</h1>
+
+    <!-- iframes -->
+    <div id="iframes" style="background-color: aquamarine">
+      <!-- Embed another webpage with an iframe -->
+      <iframe
+        src="https://www.justit.co.uk/"
+        frameborder="0"
+        width="560"
+        height="315"
+      >
+      </iframe>
+
+      <!-- Embed a google map with an iframe -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.665921073192!2d-0.2796177000000307!3d51.55602469999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761181d57a876d%3A0xa64f9f185de8e097!2sWembley%20Stadium!5e0!3m2!1sen!2suk!4v1701855061508!5m2!1sen!2suk"
+        width="560"
+        height="315"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <!-- Embed Youtube video with an iframe -->
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/qz0aGYrrlhU?si=s-wnXm-ZU-1ob0YJ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- HTML Video -->
+    <div id="video" style="background-color: bisque">
+      <video width="560" height="315" src="video (1080p).mp4" controls>
+        Your browser does not support video playback
+      </video>
+    </div>
+
+    <!-- HTML Audio -->
+
+    <div id="audio" style="background-color: seagreen">
+      <audio src="alex-productions-christmas-snow.mp3" controls>
+        Your browser does not support audio file (mp3)
+      </audio>
+    </div>
+  </body>
+</html>

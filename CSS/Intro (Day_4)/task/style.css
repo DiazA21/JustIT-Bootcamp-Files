@@ -1,0 +1,24 @@
+*{
+    background-color:#ddd9c5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Nova Square', sans-serif;
+    color: #50808E ;
+}
+
+h2,h3,h4 {
+    background-color: #69A297;
+    color: #A76D60;
+}
+
+.location {
+    background-color: #69A297;
+    color: #785964;
+}
+
+#image {
+    border: darkslategrey;
+    border-style: groove;
+}

@@ -1,0 +1,58 @@
+/* *{
+    background-color: red;
+} */
+
+/* Font Family allows us to change the font to our elements */
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* Extenal (import Font) */
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Element selector */
+/* selects all elements of the desired type in the document */
+h1 {
+    background-color: darkgreen;
+    color: orange;
+    text-align: center;
+}
+
+/* if more than one instance of an element, will apply styling to all */
+p {
+    background-color: blue;
+    color: pink;
+}
+
+/* ID Selector */
+
+/* Select an element by its ID */
+
+/* ID selector takes precident over class or element selector */
+
+#p2 {
+    background-color: #DB5461;
+    color: #FFD9CE;
+}
+
+/* Class Selector */
+
+/* Select Elements by their class attributes */
+.list {
+    background-color: aqua;
+    color: red;
+}
+
+.even {
+    background-color: darkgreen;
+    color: gold;
+}
+
+/* Group selector */
+/* Allows us to chain selectors and grab all that apply */
+h2, h3, h4 {
+    background-color: lime;
+    color: sandybrown;
+}

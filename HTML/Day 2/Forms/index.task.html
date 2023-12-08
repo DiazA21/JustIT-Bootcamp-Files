@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2 - Task</title>
+  </head>
+  <body>
+    <h1>Forms Task</h1>
+
+    <form action="confirmation.html">
+      <label for="firstName">First Name: </label>
+      <input
+        id="firstName"
+        type="text"
+        placeholder="Enter First Name"
+        required
+      />
+      <br /><br />
+      <label for="lastName">Last Name: </label>
+      <input id="lastName" type="text" placeholder="Enter Last Name" required />
+      <br /><br />
+      <label for="email">Email: </label>
+      <input id="email" type="email" placeholder="mail@mail.com" required />
+      <br /><br />
+      <label for="pass">Password: </label>
+      <input id="pass" type="password" maxlength="40" required />
+      <br /><br />
+      <label for="phone">Phone Number: </label>
+      <input id="phone" type="tel" required />
+      <br /><br />
+      <label for="dob">DOB: </label>
+      <input id="dob" type="date" />
+      <br />
+      <p>Age Range:</p>
+      <label for="age1">18 - 30:</label>
+      <input id="age1" type="radio" name="age" value="30" />
+      <br />
+      <label for="age2">31 - 50</label>
+      <input id="age2" type="radio" name="age" value="50" />
+      <br />
+      <label for="age3">51 - 70</label>
+      <input id="age3" type="radio" name="age" value="70" />
+      <br />
+      <label for="age4">71 - 90</label>
+      <input id="age4" type="radio" name="age" value="90" />
+      <br />
+      <label for="age5">91 - 100</label>
+      <input id="age5" type="radio" name="age" value="100" />
+      <br />
+      <p>Which of the following languages do you know?</p>
+      <label for="language1">HTML</label>
+      <input id="language1" type="checkbox" name="language" value="html" />
+      <label for="language2">CSS</label>
+      <input id="language2" type="checkbox" name="language" value="css" />
+      <label for="language3">JavaScript</label>
+      <input id="language3" type="checkbox" name="language" value="javasript" />
+      <br /><br />
+      <label for="myfile">Upload Task File: </label>
+      <input type="file" name="myfile" id="myfile" />
+      <br /><br />
+      <label for="reason">Why do you want to learn web development?</label>
+      <textarea name="reason" id="reason" cols="50 " rows="5"></textarea>
+      <br /><br />
+      <label for="developer">What kind of developer do you want to be?</label>
+      <select name="developer" id="developer">
+        <option selected disabled>Choose One</option>
+        <option value="frontEnd">Front-End Developer</option>
+        <option value="backEnd">Back-End Developer</option>
+        <option value="fullStack">Full Stack Developer</option>
+      </select>
+      <br /><br />
+      <input type="reset" value="Clear all fields" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
